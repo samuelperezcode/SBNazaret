@@ -13,7 +13,7 @@
     <header data-bs-theme="dark">
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Seminario Nazaret</a>
+            <a class="navbar-brand" href="#">Seminario <span class="text-danger">Nazaret</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -23,15 +23,15 @@
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Cursos</a>
+                  <a class="nav-link" href="courses.html">Cursos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">Acerca de</a>
+                  <a class="nav-link" href="about.html">Acerca de</a>
                 </li>
               </ul>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+              <form class="d-flex" role="application">
+                <input class="form-control me-2" type="email" placeholder="Correo" aria-label="Aplicar">
+                <button class="btn btn-info" type="submit">Aplicar</button>
               </form>
             </div>
           </div>
@@ -48,7 +48,7 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+              <img src="assets/img.jpg" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></img>
               <div class="container">
                 <div class="carousel-caption text-start">
                   <h1>Example headline.</h1>
@@ -58,7 +58,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+              <img src="assets/img.jpg" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></img>
               <div class="container">
                 <div class="carousel-caption">
                   <h1>Another example headline.</h1>
@@ -68,7 +68,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+              <img src="assets/img.jpg" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></img>
               <div class="container">
                 <div class="carousel-caption text-end">
                   <h1>One more for good measure.</h1>
@@ -124,8 +124,8 @@
               <div class="col-lg-6 mx-auto">
                 <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                  <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
-                  <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
+                  <button type="button" class="btn btn-dark btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
+                  <button type="button" class="btn btn-outline-dark btn-lg px-4">Secondary</button>
                 </div>
               </div>
             </div>
@@ -142,7 +142,7 @@
               <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
             </div>
             <div class="col-md-5">
-              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+              <img class="featurette-image img-fluid mx-auto shadow-lg" width="500" height="500" src="assets/fondo.jpg" role="img"  preserveAspectRatio="xMidYMid slice" focusable="false"></img>
             </div>
           </div>
       
@@ -154,7 +154,7 @@
               <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
             </div>
             <div class="col-md-5 order-md-1">
-              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+              <img class="featurette-image img-fluid mx-auto shadow" width="500" height="500" src="assets/img500.jpg" role="img"  preserveAspectRatio="xMidYMid slice" focusable="false"></img>
             </div>
           </div>
       
@@ -162,11 +162,11 @@
       
           <div class="row featurette">
             <div class="col-md-7">
-              <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
+              <h2 class="featurette-heading fw-normal lh-1 ">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
               <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
             </div>
             <div class="col-md-5">
-              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
+              <img class=" shadow-lg featurette-image img-fluid mx-auto" width="500" height="500" src="assets/img2.jpg" role="img"  preserveAspectRatio="xMidYMid slice" focusable="false"></img>
             </div>
           </div>
 
@@ -193,20 +193,20 @@
               <div class="col-lg-6 mx-auto">
                 <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                  <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
-                  <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
+                  <button type="button" class="btn btn-outline-warning btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
+                  <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
                 </div>
               </div>
             </div>
           </div>
-        <div class="bg-light  px-4 py-5 text-center">
+        <div class="bg-light-subtle  px-4 py-5 text-center">
             <div class="py-5">
               <h1 class="display-5 fw-bold text-dark">Dark color hero</h1>
               <div class="col-lg-6 mx-auto">
                 <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                   <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
-                  <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
+                  <button type="button" class="btn btn-outline-dark btn-lg px-4">Secondary</button>
                 </div>
               </div>
             </div>
@@ -219,7 +219,7 @@
             <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
                 <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
             </a>
-            <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 Seminario Bautista Nazaret, Inc</span>
+            <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 Seminario Bautista <span class="text-danger">Nazaret</span> , Inc</span>
             </div>
 
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
